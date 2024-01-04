@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 56px;
+    width: 100%;
+    background-color:pink;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    justify-content: space-between;
+
+}
+.header-list-item{
+    display:flex;
+    gap:10px;
+}
+.header-item { 
+    list-style: none;
+    color:aqua
+}
+.search{
+    position: relative; 
+}
+.icon-search{
+    position: absolute;
+ right: 6px;
+}
+.khach-hang{
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}

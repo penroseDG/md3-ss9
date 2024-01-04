@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+
+}
+.container{
+    background-image: url("https://img.pikbest.com/origin/09/41/85/916pIkbEsTzRC.jpg!w700wp") ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    background-color: white;
+    padding: 20px 24px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.form-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.fomr-label {
+     font-weight: 700;
+
+
+}
+.form-input {
+    height: 36px;
+    padding:0 16px;
+    outline: none;
+    border: 1px solid #dadada;
+}
+.form-input:hover{
+    box-shadow: box-shadow: black rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.form-input:focus{
+    border-color: blue;
+}
+.button {
+    height: 36px;
+    padding:0 16px;
+    outline: none;
+    border: 1px solid transparent;
+    border: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+.button-blue{
+    background-color: blue;
+    color: white;
+}
+
+
+.redirect {
+    text-align: center;
+    margin-top: 24px;
+}

@@ -1,0 +1,20 @@
+.container { 
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.item{ 
+    height: 200px;
+    width: 200px;
+}
+.item:first-child {
+    background-color: red;
+}
+.item:nth-child(2){
+    background-color:   blue; 
+}
+.item:last-child{
+    background-color: green;
+}
+
